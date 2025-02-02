@@ -58,6 +58,6 @@ minetest.register_chatcommand("leaderboard", {
 })
 
 if minetest.settings:get_bool("atl_server_statistics.simplified_command") ~= true then
-minetest.register_chatcommand("s", minetest.registered_chatcommands["stats"])
-minetest.register_chatcommand("ld", minetest.registered_chatcommands["leaderboard"])
+    minetest.register_chatcommand("s", minetest.registered_chatcommands["stats"])
+    minetest.register_chatcommand("ld", minetest.registered_chatcommands["leaderboard"])
 end
